@@ -76,72 +76,8 @@
       width: 100% !important;
       height: auto !important;
     }
-    
-    a,
-    a * {
-      text-decoration: none;
-      color: #01B2D0;
-    }
-    a:hover {
-      color: #507078;
-      cursor: pointer;
-      text-decoration: underline;
-    }
     b {
       font-weight: bold;
-    }
-    .btn {
-      display: inline-block;
-      margin-bottom: 0;
-      font-weight: bold;
-      text-align: center;
-      vertical-align: middle;
-      cursor: pointer;
-      background-image: none;
-      white-space: nowrap;
-      outline: 0;
-      padding: 8px 14px;
-      font-size: 16px;
-      line-height: 1.42857;
-      border-radius: 4px;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      color: white !important;
-      background: #00c3e4;
-      border-color: #00adcb;
-    }
-
-    .btn a{
-      color:#ffffff;
-    }
-    #footer * {
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 16px;
-      color: #555;
-    }
-    
-    #footer p {
-      margin: 0;
-    }
-    
-    #footer a {
-      font-weight: bold;
-      color: #01B2D0;
-    }
-    .link-btn a {
-      color: #ffffff;
-      font-weight: bold;
-      text-decoration: underline !important;
-    }
-    
-    .link-btn a:hover {
-      color: #ffffff !important;
-      text-decoration: underline !important;
-      font-weight: bold !important;
-    }
 
     @media only screen and (max-width: 600px) {
       #logo-container table{
@@ -177,16 +113,7 @@
       }
     }
 
-    @media only screen and (max-width: 480px) {
-      .btn {
-       
-      }
-      .btn a{
-        display:block !important;
-        font-size:18px !important;
-        width:100% !important;
-      }
-    }
+
 
   </style>
 </head>
