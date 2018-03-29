@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <title>Fusion example</title>
+  <style type="text/css">
+
+    #outlook a {
+      padding: 0;
+    }
+    
+    .ReadMsgBody {
+      width: 100%;
+    }
+    
+    .ExternalClass {
+      width: 100%;
+    }
+
+    body {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      background-color: #ffffff !important;
+      width: 100% !important;
+      margin-left: 0px !important;
+      margin-top: 0px !important;
+      margin-right: 0px !important;
+      margin-bottom: 0px !important;
+      padding: 0 !important;
+      font-family: Arial, sans-serif !important;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #111;
+      line-height: 1.4em;
+      clear: both;
+      margin-top: 0 0 22px;
+      font-weight: 600;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    h2 {
+     font-size: 16px;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 20px;
+      margin-top: 40px;
+      
+    }
+    
+    h3 {
+      margin: 0 !important;
+      padding:20px 0 0 0 !important;
+      color: #444444;
+      font-size: 20px;
+    }
+    
+    h4 {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+        
+    p, ul, ol {
+      color: #444444;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 10px 0 25px;
+    }
+    ul {
+     padding-left: 15px; 
+    }
+    img[class~=img] {
+      width: 100% !important;
+      height: auto !important;
+    }
+    
+    a,
+    a * {
+      text-decoration: none;
+      color: #01B2D0;
+    }
+    a:hover {
+      color: #507078;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    b {
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: bold;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      background-image: none;
+      white-space: nowrap;
+      outline: 0;
+      padding: 8px 14px;
+      font-size: 16px;
+      line-height: 1.42857;
+      border-radius: 4px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color: white !important;
+      background: #00c3e4;
+      border-color: #00adcb;
+    }
+
+    .btn a{
+      color:#ffffff;
+    }
+    #footer * {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #555;
+    }
+    
+    #footer p {
+      margin: 0;
+    }
+    
+    #footer a {
+      font-weight: bold;
+      color: #01B2D0;
+    }
+    .link-btn a {
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: underline !important;
+    }
+    
+    .link-btn a:hover {
+      color: #ffffff !important;
+      text-decoration: underline !important;
+      font-weight: bold !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+      #logo-container table{
+        width: 100%;
+        text-align: center;
+      } 
+      #logo-container #tagline {
+        display: none;
+      }
+      table[class~=row] {
+        width: 100% !important;
+      }
+      table[class~=logo] {
+        width: 100% !important;
+      }
+      table[class~=logo] img {
+        width: 100px !important;
+      }
+      img {
+        height: auto !important;
+        width: 100% !important;
+      }
+      img[class~=img] {
+        width: 100% !important;
+        height: auto !important;
+      }
+      img[class~=img2] {
+        width: 100% !important;
+        height: auto !important;
+      }
+      img.ignore {
+        width: auto !important;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .btn {
+       
+      }
+      .btn a{
+        display:block !important;
+        font-size:18px !important;
+        width:100% !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body style="margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;padding: 0;width: 100%;">
+
+  <!-- ///// Header ///// -->
+
+   <!-- ///// Main Content ///// -->
+
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="BGtable" style="border-collapse: collapse;margin: 0;padding: 0;width: 100%;">
+    <tr>
+      <td align="center" style="padding: 5px 0 0 0px;">
+        <table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="row" style="border-collapse: collapse;background:#ffffff;">
+          <tr>
+          	<td style="padding: 20px;">
+<p>Hey {{user.first_name}},</p>
+
+<h2>Welcome</h2>
+
+<p>Welcome to Vero! We're excited you're checking us out.</p>
+
+<p>It looks to us like you're in {{location}}. Our HQ is in Sydney, Australia, but we're a worldwide team with team members in Europe and in the US.</p>
+
+<table width="100%">
+	<tbody>
+		<tr>
+			<td><img style="border-radius: 5px 5px 0 0;" src="https://maps.googleapis.com/maps/api/staticmap?center={{location}}&amp;zoom=12&amp;size=600x250&amp;key=AIzaSyDpOotfHzGNZ4B-mQofyHXZjNzZz-koTSc&amp;markers=scale:2|icon:https://s3.amazonaws.com/assets.getvero.com/emails/fusion/marker%402x.png|{{location}}"></td>
+		</tr>
+		<tr>
+			<td style="background: #01B2D0; padding: 10px; border-radius: 0 0 5px 5px;">
+				<div>
+
+					<table style="color: white;" width="100%">
+						<tbody>
+							<tr>
+								<td style="margin-right: 10px;"><img src="http://openweathermap.org/img/w/{{json.weather.weather.first.icon}}.png"></td>
+								<td style="margin-right: 10px;">
+
+									<table>
+										<tbody>
+											<tr>
+												<td><strong>{{json.weather.weather.first.description}}</strong></td>
+											</tr>
+											<tr>
+												<td>{{json.weather["main"]["temp"]}}°F</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td><strong>{{location}}</strong></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>At Vero, we're all about personalisation. In this email we wanted to show you a little of what's possible. For example, when we sent you this email we could see that it was <strong>{{json.weather["main"]["temp"]}}°F</strong> with you – "{{json.weather.weather.first.description}}" according to the weather report!.</p>
+
+<p>This sort of content personalisation is possible thanks to <a href="https://getvero.com/fusion">Fusion</a>, a Vero feature that let's you load personalised content from any API: whether internal or external (like the weather API!).</p>
+
+<h2>Support</h2>
+
+<p>As we mentioned, we're based all over the world. One reason for this is we want to provide our customers with the best support possible. From where you are, your nearest support contact is based in {{json.distances.destination_addresses[actual_index]}} – that's <strong>{{json.distances.rows.first.elements[actual_index].distance.text}}</strong> away! We've got team members in Australia, the Netherlands and the USA so whenever you have a question or need support with Vero - we're around to help.</p>
+
+<p>Get in touch by sending an email to <a href="mailto:support@freeagent.com">support@getvero.com</a>. You can also head over to our <a href="https://help.getvero.com">Help Center</a> and <a href="https://developers.getvero.com">API docs</a> for helpful guides and information on using Vero.</p>
+
+<h2>Next steps</h2>
+
+<p>To get rolling with Vero, simply follow the <a href="https://app.getvero.com/wizard/guide">Getting Started guide</a> in your account.</p>
+
+
+<p>Thanks! Speak soon,</p>
+
+        </td>
+          </tr>
+        </table>
+      
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
